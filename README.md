@@ -16,9 +16,8 @@ The base for the robot the Turtlebot3 burger development kit. https://emanual.ro
 
 ![PEDRO](https://github.com/dodisbeaver/PEDRO/blob/main/PEDRO1.jpeg?raw=true)
 
-List all prerequisites and dependencies that are necessary to install the software correctly. This includes specific hardware (e.g. for a server, the number and type of CPU, RAM, Hard Disk type (e.g SSD), file system / partition and required disk space).
-
-Also the necessary software should be defined with the required (minimal) version and release. This could include the following elements
+Here is the list of hardware that is necessary for PEDRO to work.
+You are not required to print out a shell.
 
     Hardware: 
         1. A PC, preferably a laptop if you want to chase PEDRO
@@ -34,9 +33,6 @@ Also the necessary software should be defined with the required (minimal) versio
       
 
 ## Installation instructions and steps
-A step by step list of instructions. They should be as precise and exact as possible. If a package manager is used, write the correct installation command with the correct parameters. If the installation document is a pdf file or consumed online, make sure the commands can be copied easily (no screenshot, only text – maybe use a specific terminal-like font) so the administrator can copy the commands.
-
-If multiple installation method are available, all should be covered (e.g. simple or advanced mode). The installation process should describe also the detailed instructions.
 
 The first thing to do is to remember to source the environment if something does not work. Remember to use the environment variables! ROS is very particular about environment variables. Another gotcha is that ubuntu does not make a swapfile. So following the turtlebot3 instructions for ubuntu 22.04 will fail very early if not done manually. It is also important to use the Humble tab in the e-manual on robotis. 
 
